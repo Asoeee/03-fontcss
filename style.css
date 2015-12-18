@@ -1,0 +1,48 @@
+	.layout{
+		width: 750px;
+		height: 251px;
+		margin: 50px auto;
+		border: 1px solid #ccc;
+		border-top: 0;
+	}
+	.layout li{
+		width: 250px;
+		height: 250px;	
+		line-height: 250px;	
+		float: left;
+		text-align: center;
+		background-color: #f4f4f4;
+		color: #b13947;
+		border-top: 1px solid #ccc;	
+		border-left: 1px solid #ccc;
+		margin-left: -1px;
+		font-size: 148px;
+	}
+	@font-face{
+		font-family: "icomoon";
+		src:url("../fonts/icomoon.eot");/*IE9*/
+		src:url("../fonts/icomoon.eot?#iefix")
+		,url("../fonts/icomoon.svg")
+		,url("../fonts/icomoon.ttf")
+		,url("../fonts/icomoon.woff");
+		font-weight: normal;
+		font-style: normal;
+	}
+	.icon{
+		font-family:"icomoon";
+		font-weight: normal;
+		font-style: normal;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+	.icon-accessibility:before{
+		content: "\e901";
+	}
+	.icon-rocket:before{
+		content: "\e900";
+	}
+	.icon-earth:before{
+		content:"\e902";
+	}
+
+
